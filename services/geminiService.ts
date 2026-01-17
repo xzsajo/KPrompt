@@ -95,8 +95,8 @@ export function updateApiHost(newHost: string) {
 }
 
 export const listAvailableModels = async (): Promise<string[]> => {
-    // Per guidelines, the primary text model for this app is 'gemini-2.5-flash'.
-    return ['gemini-2.5-flash'];
+    // Per guidelines, the primary text model for this app is 'gemini-flash-latest'.
+    return ['gemini-flash-latest'];
 };
 
 
