@@ -26,7 +26,7 @@ const App: React.FC = () => {
     }
 
     // Load the system prompt rules from the correct URL
-    fetch('https://raw.githubusercontent.com/KuekHaoYang/KPrompt/refs/heads/main/prompts/systemPromptRules.txt')
+    fetch('https://raw.githubusercontent.com/xzsajo/KPrompt/refs/heads/main/prompts/systemPromptRules.txt')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
